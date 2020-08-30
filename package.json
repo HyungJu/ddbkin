@@ -8,17 +8,37 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "animate.css": "^4.1.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.16.0",
+    "buefy": "^0.9.2",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "fullpage-vue": "^2.1.1",
+    "global": "^4.4.0",
+    "intersection-observer": "^0.11.0",
+    "ks-vue-fullpage": "^1.2.8",
+    "lottie-vuejs": "^0.3.7",
+    "lottie-web": "^5.7.3",
+    "vue": "^2.6.12",
+    "vue-fullpage.js": "^0.1.5",
+    "vue-lottie": "^0.2.1",
+    "vue-scrollactive": "^0.9.3",
+    "vue-scrollama": "^1.1.9"
   },
   "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@vue/babel-preset-app": "^4.5.4",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.44.1"
   },
   "eslintConfig": {
     "root": true,

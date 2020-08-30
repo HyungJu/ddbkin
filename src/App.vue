@@ -1,28 +1,43 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Main />
+    <Second />
+    <Third />
+    <Forth />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Main from './pages/Main.vue'
+import Second from './pages/Second.vue'
+import Third from './pages/Third.vue'
+import Forth from './pages/Forth.vue'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Main,
+    Second,
+    Third,
+    Forth
+  },
+  created () {
+    AOS.init()
   }
 }
+
+
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    margin:0;
+    padding:0;
+  }
 </style>
